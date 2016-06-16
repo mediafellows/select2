@@ -1401,7 +1401,7 @@ the specific language governing permissions and limitations under the Apache Lic
                     return dropLeft + dropWidth <= viewPortRight;
                 },
                 enoughRoomOnLeft = function() {
-                    return offset.left + viewPortRight + container.outerWidth(false)  > dropWidth;
+                    return false;
                 },
                 aboveNow = $dropdown.hasClass("select2-drop-above"),
                 bodyOffset,
